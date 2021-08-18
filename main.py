@@ -225,7 +225,8 @@ async def help(client: Client, message: Message):
 
 [Репутация, для повышения попросите 2 человека написать вам в ответ сообщение "+"]
 
-Если нужна помощь, пиши @TransNibber""", disable_web_page_preview=True)
+Если нужна помощь, пиши @TransNibber
+При поддержки @PrivateSoft0""", disable_web_page_preview=True)
 
 async def restart(message: Message, restart_type):
     if restart_type == 'update': text = '1'
